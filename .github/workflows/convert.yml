@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
     inputs:
       GSI:
-        description: 'Samfw Link For AP'
+        description: 'https://dl.samfwpremium.cloud/8e08d94d2d8e32ff0a6e113a85955820ki41U77NKZh3r4pfESwYv-Jwnmj1VDEkoozyFsI1Cbimy6Hf8NUbwsMI8uR4tc9ry2RLaNRDWUAFYHDAFh5WKPcohLbOF17jmPFHLrFqgjNeD_59mcDLxJ9_0EUF3__bM7lLsgjYFAZD77vcra47QdoARLZwOEG_WJTHYMRKK3--pE7vxLZaKY7H7zM8Ru9Ho9Y2aKXt4Ri0gMZoXlS1nIkQWQ0j6LaNOhSMT5Sx4j5MvMTAgdtcCbwHMU_B2Hhp9w7R1SVVAyKxkU9Jjp-7zsiY82YVjFDKaHGLUkcdKLr1qNXuoThF53M1hwCaM3Dhfch3n-q97n8fxPZ7KpQ9pbbBEDaWZrK2FuOPWvuzn72sVO9bxGVCEyltziQAIggDLkiwdPeZgEkFLQCZDjb_YcBrcvQw7UNsUjp-aVqQEfwtdurtB7PXBGpsZENA1Vl7h0AxrAttzDUeFN6dmsVNLnxwDldFJMrRj8djtk-FhPnx-Z3hXNIoNzKeiuOugcchvOOjaNIvMmCHquFw7VaHu9WionXJVXxUiN8q2f7yeKIjtmNdfK2X4jRB8nXONcIJEgViyUupZbg1cYw-I3804a3k67YLYaWOHhrdL8H6mF_OjBlqRFmL2JlWiXF5Lvsn14Jg1SPMPa19hjUCRKDbuuzUB9v0iAp7zSan3EqvQb50YQ8uh7BB7cs7ApnMlfrPt16JtRPMpGOZecPbJA09tiXU0Tc-ndcg0vmBTkXTJUw5hp_L-vMGKFkXXaOxWQ24wHs87630h5IsQdVpD5N_ZPMtQEAY2cwHAvVIz8mPy8bdGvkiQl9Or37Qg9665-6F1pxEnU9B62YesVV6hm5SgPNZ21ULJRMqKaQJbB6RxWB_ToauL5iVmtnfInSPPvGNlttWjZDrQoxwQcp2dd5hLX9ecPZ_baJVDIgBhwfs-rxOX8o3InBC9Dymuj9TbK46KyQqmkt2ECeBUu7U9b92MDLj8vbLXq88pffNXWLvT4GyG_rDdN9irsR2t8AJnhyN27XVDyOs0555XFdqpeDvToR2He59l7noyzpz2px0sKNQFmIVb6d0SJLjeAZNLUv7xCI0Ihu4c73hsLdNTO2lVw?file_name=AP_A065FXXS2AXJ2_A065FXXS2AXJ2_MQB87134105_REV00_user_low_ship_MULTI_CERT_meta_OS14.tar.md5.zip'
         required: true
         default: ' AP LINK FROM SAMFW'
       
       Firmware:
         description: 'Firmware version'
         required: true
-        default: 'EG - :A055FXXU2AWK1'
+        default: 'EG - :A065FXXS2AXJ2'
 
 jobs:
   Build:
