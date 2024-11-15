@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
     inputs:
       GSI:
-        description: 'Samfw Link For AP'
+        description: 'https://29-samfw.cloud/v2/IxJCDiMnLiQvFkEJEgMNFCMxO0AuOx4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/CTggLCM2QkAPC0EkMwghByE7FCMjJUEENRYzCi8DLxw8MEEeNQAuHi8sPjs7MTkkIwAHFA8LITEXEQJAPAseQTU2Aik7AwcANAMFORcLIDoSADAMNAA8FC84BkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCDS8gJg0DIgAeOyE8FwcjPw0vKTojLD4gIxY8MDMsKTw7JEEgFwgKPzgxMDMNCxVAIwMjMSMDIjA4MEEHLwsiOThALyQhOEEmMic+QDhAHgo1OCAmAy8vIy8ILCYNMS8SLwc+HyE4Myk4MT4DIwMNKy4nBz8JETA2HhIUPTU4IEImCCEDMjYvAg8XPhY1FzMmMiczAyM2FBQeOx4xIwgwEDUIBwoSESkRO0AHLSM4BkIjAzQkIwM8MB4LPDkjFRMT'
         required: true
         default: ' AP LINK FROM SAMFW'
       
       Firmware:
         description: 'Firmware version'
         required: true
-        default: 'EG - :A055FXXU2AWK1'
+        default: 'EG - :A065FXXS2AXJ2'
 
 jobs:
   Build:
